@@ -42,7 +42,7 @@ h1{margin:5px 0 0;font-size:clamp(20px,3vw,30px);line-height:1.05;letter-spacing
 .theme-toggle .ico{width:14px;height:14px;display:grid;place-items:center}
 .live{display:inline-flex;align-items:center;gap:8px;font:600 11px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--green)}
 .live-dot{width:8px;height:8px;background:var(--green);border-radius:50%;box-shadow:0 0 12px var(--green);position:relative}
-.live-dot:after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--green);opacity:.7;animation:livePulse 1.6s ease-out infinite}
+.live-dot:after{content:none}
 @keyframes livePulse{0%{transform:scale(.6);opacity:.8}70%{transform:scale(1.9);opacity:0}100%{transform:scale(1.9);opacity:0}}
 #meta{margin-top:2px;color:var(--muted);font:500 11px IBM Plex Mono,monospace}
 .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:14px;margin:20px 0 14px}
@@ -134,6 +134,10 @@ html[data-theme="day"] .chip{border-color:#9ad3e0;background:#e8f7fb}
 .grid .card{min-height:210px}
 .narrative{margin-top:11px;padding:20px;border-left:3px solid var(--lime);background:var(--panel-2);color:var(--muted);font-size:13px;line-height:1.65}
 .muted{color:var(--muted);font-size:13px}
+.nodraft{margin-top:16px;padding:10px 14px;border:1px dashed var(--line);color:var(--muted);font:500 10px/1.5 IBM Plex Mono,monospace}
+.nodraft b{color:var(--amber);font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:6px}
+.score-hist{margin-top:14px;font:500 10px/1.6 IBM Plex Mono,monospace;color:var(--muted)}
+.score-hist b{color:var(--text)}
 .boards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:8px}
 .board-panel{padding:20px 22px}
 .board-panel h3{margin:8px 0 14px;font-size:18px;letter-spacing:-.03em}
@@ -210,7 +214,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
     <div class="header-meta">
       <div class="header-actions">
         <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle day and night theme"><span class="ico" id="theme-ico">☾</span><span id="theme-label">Night</span></button>
-        <div class="live" title="Live signal"><span class="live-dot" aria-hidden="true"></span>LIVE SIGNAL</div>
+        <div class="live" title="Refreshed once a day after the noon digest (Sydney time). Not a live feed."><span class="live-dot" aria-hidden="true"></span>Updated daily</div>
       </div>
       <div id="meta">loading data…</div>
     </div>
@@ -225,15 +229,15 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
             <div class="x-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.967 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg></div>
             <h2>X Score</h2>
           </div>
-          <p>Daily momentum from watchlist hit volume and total view velocity.</p>
+          <p id="score-copy">How strong today was for NEW watchlist originals (repeats from yesterday don't count), against targets set from past days. A typical day lands around 60-70.</p><div class="score-hist" id="score-hist"></div>
         </div>
         <div class="score-ring" id="score-ring"><div class="score-inner"><div class="score-number" id="x-score" data-count="0">0</div><div class="score-of">/ 100</div><div class="trend flat" id="score-trend"><span class="trend-arrow">→</span><span>calculating</span></div></div></div>
       </article>
       <article class="panel target-panel">
         <div class="target-head"><div><div class="panel-label"><strong>02 /</strong> daily objective</div><div class="target-title">Day Target</div></div><div class="target-state pending" id="target-state">◷ NOT DONE</div></div>
         <div class="target-list">
-          <div><div class="target-row-head"><span>Watchlist hits</span><b id="hits-target-copy">—</b></div><div class="target-track"><div class="target-fill" id="hits-progress"></div></div></div>
-          <div><div class="target-row-head"><span>Total views</span><b id="views-target-copy">—</b></div><div class="target-track"><div class="target-fill" id="views-progress"></div></div></div>
+          <div><div class="target-row-head"><span>New hits ≥5k</span><b id="hits-target-copy">—</b></div><div class="target-track"><div class="target-fill" id="hits-progress"></div></div></div>
+          <div><div class="target-row-head"><span>New views</span><b id="views-target-copy">—</b></div><div class="target-track"><div class="target-fill" id="views-progress"></div></div></div>
         </div>
       </article>
     </section>
@@ -252,7 +256,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
       <article class="panel board-panel"><div class="panel-label"><strong>M /</strong> calendar month</div><h3 id="month-title">Month</h3><div id="month-board"></div></article>
     </section>
 
-    <div class="section-head"><div><div class="section-index">05 / watchlist</div><h2>Top hits</h2></div><div class="section-note">full drafts · copy ready · per-hit target status</div></div>
+    <div class="section-head"><div><div class="section-index">05 / watchlist</div><h2>Top hits</h2></div><div class="section-note" id="hits-note">drafts · copy ready</div></div>
     <section class="hits-col" id="hits"></section>
 
     <div class="section-head"><div><div class="section-index">06 / pattern layer</div><h2>Pattern brief</h2></div><div class="section-note">keywords + recurring hooks and structures</div></div>
@@ -262,7 +266,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
     <section class="grid" id="virals"></section>
     <div class="narrative" id="virals-narrative" hidden></div>
 
-    <div class="section-head"><div><div class="section-index">08 / below floor</div><h2>No hits ≥5k</h2></div><div class="section-note">handles + likely reasons</div></div>
+    <div class="section-head"><div><div class="section-index">08 / below floor</div><h2>No hits ≥5k</h2></div><div class="section-note" id="nohits-note">handles + why they missed</div></div>
     <section class="nohits-block" id="nohits" aria-label="Accounts without 5k hits"></section>
   </main>
 
@@ -286,15 +290,17 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
   </footer>
 </div>
 <script>
-const DASHBOARD_TARGETS = Object.freeze({ hits: 12, views: 100000, minHitViews: 5000, starViews: 10000 });
+const DEFAULT_TARGETS = Object.freeze({ new_hits: 36, new_views: 2000000, minHitViews: 5000, starViews: 10000 });
+let DASHBOARD_TARGETS = DEFAULT_TARGETS;
+const SYD_TZ = 'Australia/Sydney';
+function fmtDay(iso){if(!iso)return'—';const [y,m,dd]=String(iso).split('-').map(Number);return new Date(Date.UTC(y,m-1,dd,12)).toLocaleDateString('en-AU',{day:'numeric',month:'short',timeZone:'UTC'})}
 const THEME_KEY = 'xvs-theme';
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
 function num(n){n=Number(n);return Number.isFinite(n)?n:0}
 function fmt(n){n=num(n);if(n===0)return'0';if(n>=1e6)return(n/1e6).toFixed(n>=1e7?0:2).replace(/\.0+$/,'').replace(/(\.\d)0$/,'$1')+'M';if(n>=1e3)return(n/1e3).toFixed(n>=1e5?0:1).replace(/\.0$/,'')+'K';return String(Math.round(n))}
 function pct(value,target){return target?Math.round(value/target*100):0}
-function scoreFor(hits,views){return Math.round(100*(.45*Math.min(hits/DASHBOARD_TARGETS.hits,1)+.55*Math.min(views/DASHBOARD_TARGETS.views,1)))}
-function rawIndex(hits,views){return Math.round(100*(.45*(hits/DASHBOARD_TARGETS.hits)+.55*(views/DASHBOARD_TARGETS.views)))}
-function trendMarkup(delta,label){const dir=delta>0?'up':delta<0?'down':'flat';const arrow=delta>0?'↑':delta<0?'↓':'→';const d=delta===0?'on pace':`${delta>0?'+':''}${delta}`;return{dir,html:`<span class="trend-arrow">${arrow}</span><span>${d} ${label}</span>`}}
+function scoreFor(newHits,newViews){return Math.round(100*(.5*Math.min(newHits/DASHBOARD_TARGETS.new_hits,1)+.5*Math.min(newViews/DASHBOARD_TARGETS.new_views,1)))}
+function trendMarkup(delta,label,unit=''){if(delta==null||!Number.isFinite(delta))return{dir:'flat',html:`<span class="trend-arrow">→</span><span>${label||'no earlier day'}</span>`};const dir=delta>0?'up':delta<0?'down':'flat';const arrow=delta>0?'↑':delta<0?'↓':'→';const d=delta===0?'same':`${delta>0?'+':''}${delta}${unit}`;return{dir,html:`<span class="trend-arrow">${arrow}</span><span>${d} ${label}</span>`}}
 function easeOutCubic(t){return 1-Math.pow(1-t,3)}
 function countUp(el, to, {duration=1100, format=v=>String(Math.round(v)), decimals=0}={}){
   if(!el) return; const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches; const start=performance.now(); const from=0;
@@ -325,7 +331,7 @@ function renderSparkline(hits){const top=[...hits].sort((a,b)=>num(b.views)-num(
 function renderLeaderboard(el, entries){
   if(!el) return;
   if(!entries||!entries.length){el.innerHTML='<p class="muted">No leaderboard data yet.</p>';return}
-  el.innerHTML=entries.map((e,i)=>`<div class="lb-row"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmt(e.views))}<small>best ${esc(fmt(e.best||0))}</small></div></div>`).join('');
+  el.innerHTML=entries.map((e,i)=>`<div class="lb-row"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)} day${num(e.days)===1?'':'s'}</div></div><div class="lb-views">${esc(fmt(e.views))}<small>best ${esc(fmt(e.best||0))}</small></div></div>`).join('');
 }
 function normalizeNoHits(raw){
   if(!Array.isArray(raw)) return [];
@@ -335,36 +341,42 @@ function normalizeNoHits(raw){
     return {
       handle: handle.startsWith('@')?handle:'@'+handle,
       reason: item.reason||item.note||item.likely_reason||'Below 5k views floor or no qualifying day original.',
-      max_views: item.max_views!=null?item.max_views:null
+      max_views: item.max_views!=null?item.max_views:null,
+      max_label: item.max_label||null, url: item.max_views_url||null
     };
   });
 }
 function renderNoHits(list){
   const el=document.getElementById('nohits');
   if(!list.length){el.innerHTML='<p class="muted">All watchlist accounts cleared the 5k floor today.</p>';return}
-  el.innerHTML=list.map(n=>`<article class="nohit"><div><div class="nohit-handle">${esc(n.handle)}</div><div class="nohit-badge">no hit ≥5k</div></div><div class="nohit-reason">${esc(n.reason)}</div><div class="nohit-max">max seen<b>${n.max_views==null?'—':esc(fmt(n.max_views))}</b></div></article>`).join('');
+  el.innerHTML=list.map(n=>`<article class="nohit"><div><div class="nohit-handle">${esc(n.handle)}</div><div class="nohit-badge">no hit ≥5k</div></div><div class="nohit-reason">${esc(n.reason)}</div><div class="nohit-max">best in window<b>${n.max_views==null?esc(n.max_label||'no posts'):(n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(fmt(n.max_views))}</a>`:esc(fmt(n.max_views)))}</b></div></article>`).join('');
 }
 async function boot(){
   const res=await fetch('./data.json?ts='+Date.now());if(!res.ok)throw new Error('data.json '+res.status);const d=await res.json();
   const hits=Array.isArray(d.hits)?d.hits:[];const virals=Array.isArray(d.virals)?d.virals:(Array.isArray(d.outsiders)?d.outsiders:[]);
   const totalViews=hits.reduce((a,h)=>a+num(h.views),0);const maxViews=hits.length?Math.max(...hits.map(h=>num(h.views))):0;const highlights=hits.filter(h=>h.highlight===true||num(h.views)>=DASHBOARD_TARGETS.starViews).length;
-  const score=scoreFor(hits.length,totalViews);let delta=rawIndex(hits.length,totalViews)-100,label='vs target';
-  const prev=d.previous_day||d.previous||null;if(prev){let ps=Number(prev.x_score);if(!Number.isFinite(ps)){const ph=Array.isArray(prev.hits)?prev.hits.length:num(prev.hits_count);const pv=Array.isArray(prev.hits)?prev.hits.reduce((a,h)=>a+num(h.views),0):num(prev.total_views);ps=scoreFor(ph,pv)}if(Number.isFinite(ps)){delta=score-ps;label='vs prev day'}}
+  const sc=d.score||{};if(sc.targets)DASHBOARD_TARGETS=Object.assign({},DEFAULT_TARGETS,sc.targets);
+  const newHits=sc.new_hits!=null?num(sc.new_hits):hits.length;const newViews=sc.new_views!=null?num(sc.new_views):totalViews;
+  const score=Number.isFinite(Number(sc.x_score))&&sc.x_score!=null?Number(sc.x_score):scoreFor(newHits,newViews);
+  const prevScore=sc.prev_score!=null?Number(sc.prev_score):null;const delta=prevScore!=null?score-prevScore:null;
+  const label=prevScore!=null?`vs yesterday (${fmtDay(sc.prev_date)}: ${prevScore})`:'no earlier day';
   countUp(document.getElementById('x-score'), score, {duration:1200, format:v=>String(Math.round(v))});
   const ring=document.getElementById('score-ring');
   const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if(reduce){ring.style.setProperty('--score',score)}
   else{const t0=performance.now();(function anim(now){const t=Math.min(1,(now-t0)/1200);ring.style.setProperty('--score', (score*easeOutCubic(t)).toFixed(2));if(t<1)requestAnimationFrame(anim)})(t0)}
   const st=trendMarkup(delta,label);const scoreTrend=document.getElementById('score-trend');scoreTrend.className='trend '+st.dir;scoreTrend.innerHTML=st.html;
-  const hp=pct(hits.length,DASHBOARD_TARGETS.hits),vp=pct(totalViews,DASHBOARD_TARGETS.views);document.getElementById('hits-target-copy').textContent=`${hits.length} / ${DASHBOARD_TARGETS.hits} · ${hp}%`;document.getElementById('views-target-copy').textContent=`${fmt(totalViews)} / ${fmt(DASHBOARD_TARGETS.views)} · ${vp}%`;
+  const hist=Array.isArray(sc.recent)?sc.recent:[];if(hist.length){document.getElementById('score-hist').innerHTML='Last '+hist.length+' days: '+hist.map(r=>`${esc(fmtDay(r.date))} <b>${esc(r.score)}</b>`).join(' · ')}
+  const hp=pct(newHits,DASHBOARD_TARGETS.new_hits),vp=pct(newViews,DASHBOARD_TARGETS.new_views);document.getElementById('hits-target-copy').textContent=`${newHits} / ${DASHBOARD_TARGETS.new_hits} · ${hp}%`;document.getElementById('views-target-copy').textContent=`${fmt(newViews)} / ${fmt(DASHBOARD_TARGETS.new_views)} · ${vp}%`;
   requestAnimationFrame(()=>{[['hits-progress',hp],['views-progress',vp]].forEach(([id,p])=>{const el=document.getElementById(id);el.style.width=Math.min(100,p)+'%';if(p>=100)el.classList.add('done')})});
   const targetDone=hp>=100&&vp>=100;const targetState=document.getElementById('target-state');targetState.className='target-state '+(targetDone?'done':'pending');targetState.textContent=targetDone?'✓ DONE':'◷ NOT DONE';
+  const pd=d.previous_day||null;const chg=(cur,key)=>pd&&pd[key]!=null?trendMarkup(cur-num(pd[key]),'vs yesterday'):trendMarkup(null,'no earlier day');
   const metrics=[
-    ['Hits',hits.length,null,trendMarkup(hits.length-DASHBOARD_TARGETS.hits,'vs target')],
+    ['Hits',hits.length,null,chg(hits.length,'hits_count')],
     ['★ Highlights',highlights,null,{dir:highlights?'up':'flat',html:`${highlights?'↑':'→'} ≥${fmt(DASHBOARD_TARGETS.starViews)} each`}],
-    ['Total views',totalViews,fmt,trendMarkup(pct(totalViews,DASHBOARD_TARGETS.views)-100,'vs target')],
+    ['Total views',totalViews,fmt,pd&&num(pd.total_views)?trendMarkup(Math.round((totalViews/num(pd.total_views)-1)*100),'vs yesterday','%'):trendMarkup(null,'no earlier day')],
     ['Outsiders',virals.length,null,trendMarkup(virals.length-num(d.virals_target||20),'vs brief')],
-    ['Top view',maxViews,fmt,trendMarkup(pct(maxViews,DASHBOARD_TARGETS.starViews)-100,'vs ★ line')]
+    ['Top view',maxViews,fmt,maxViews>=DASHBOARD_TARGETS.starViews?{dir:'up',html:`↑ ${Math.round(maxViews/DASHBOARD_TARGETS.starViews)}× the ★ line`}:trendMarkup(maxViews-DASHBOARD_TARGETS.starViews,'vs ★ line')]
   ];
   document.getElementById('stats').innerHTML=metrics.map(([k,v,formatter,t],i)=>`<article class="stat"><div class="stat-k">${esc(k)}</div><div class="stat-v" id="stat-v-${i}" data-raw="${num(v)}">0</div><div class="stat-note ${t.dir}">${t.html}</div></article>`).join('');
   metrics.forEach(([k,v,formatter],i)=>{
@@ -372,15 +384,16 @@ async function boot(){
     const format = formatter || (x=>String(Math.round(x)));
     countUp(el, num(v), {duration:1000+i*80, format});
   });
-  const updated=d.updated?new Date(d.updated).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false}):'—';document.getElementById('meta').textContent=`${d.date||'—'} · updated ${updated} · ${d.timezone||'local'}`;document.getElementById('chart-scale').textContent=`peak ${fmt(maxViews)} · ${hits.length} signals`;renderSparkline(hits);
+  const tz=d.timezone||SYD_TZ;let updated='—';if(d.updated){try{updated=new Date(d.updated).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:tz})}catch(e){updated=new Date(d.updated).toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:SYD_TZ})}}document.getElementById('meta').textContent=`${d.date||'—'} · updated ${updated} · ${tz} time`;document.getElementById('chart-scale').textContent=`peak ${fmt(maxViews)} · ${hits.length} signals`;renderSparkline(hits);
   const lbs=d.leaderboards||{};
   document.getElementById('week-title').textContent=(lbs.week&&lbs.week.label)||'Week';
   document.getElementById('month-title').textContent=(lbs.month&&lbs.month.label)||'Month';
-  const daysInc=(lbs.days_included||[]).join(', ')||'—';
-  document.getElementById('lb-note').textContent=`as of ${lbs.as_of||d.date||'—'} · days ${daysInc}`;
+  const wr=(lbs.week&&lbs.week.range)||[];const mr=(lbs.month&&lbs.month.range)||[];
+  document.getElementById('lb-note').textContent=`as of ${fmtDay(lbs.as_of||d.date)} · week ${fmtDay(wr[0])}–${fmtDay(wr[1])} · month ${fmtDay(mr[0])}–${fmtDay(mr[1])} · each post counted once, at its best views`;
   renderLeaderboard(document.getElementById('week-board'), lbs.week&&lbs.week.entries);
   renderLeaderboard(document.getElementById('month-board'), lbs.month&&lbs.month.entries);
-  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${esc(h.handle||'')}</div></div></div><div class="views-big">${esc(h.views_label||fmt(h.views))}<small>views</small></div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"${draft?'':' hidden'}><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits today.</p>';
+  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${esc(h.handle||'')}</div></div></div><div class="views-big">${esc(h.views_label||fmt(h.views))}<small>views</small></div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}${draft?'':`<div class="nodraft"><b>No draft</b>${esc(h.draft_skip_reason||'not drafted')}</div>`}<div class="draft-block"${draft?'':' hidden'}><div class="draft-head"><span class="draft-label">Draft · EN${h.draft_from&&h.draft_from!==d.date?' · from '+esc(fmtDay(h.draft_from)):''}</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits today.</p>';
+  const nDraft=hits.filter(h=>h.draft_en).length;const nCarried=hits.filter(h=>h.draft_en&&h.draft_from&&h.draft_from!==d.date).length;document.getElementById('hits-note').textContent=`${nDraft} of ${hits.length} posts have a copy-ready draft`+(nCarried?` (${nDraft-nCarried} new today, ${nCarried} from earlier days)`:'')+' · the rest say why';
   document.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',()=>{const el=document.getElementById(btn.dataset.draftId);copyDraft(btn,el?el.textContent:'')}));
   document.getElementById('patterns').innerHTML=(d.patterns||[]).map(p=>`<span class="tag">${esc(p)}</span>`).join('');document.getElementById('viral-count').textContent=`${virals.length} outsider signals`;
   document.getElementById('virals').innerHTML=virals.map((v,i)=>{const pending=!v.url||v.url==='#';return`<article class="card${pending?' pending':''}"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(v.name||v.display_name||'Unknown')}</div><div class="handle">${esc(v.handle||'')}</div></div></div><div class="views-big">${esc(v.views_label||fmt(v.views))}<small>views</small></div></div><div class="hook">${esc(v.hook||v.text||'')}</div><a class="post-link${pending?' disabled':''}" href="${esc(v.url||'#')}" target="_blank" rel="noopener">${pending?'PENDING SCRAPE':'OPEN POST ↗'}</a></article>`}).join('');const narr=document.getElementById('virals-narrative');if(d.virals_narrative||d.narrative_synthesis){narr.hidden=false;narr.textContent=d.virals_narrative||d.narrative_synthesis}

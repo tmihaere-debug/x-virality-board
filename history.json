@@ -1,0 +1,291 @@
+{
+ "board": "@steedfast X Virality Board",
+ "timezone": "Australia/Sydney",
+ "updated": "2026-10-09T10:30:47+11:00",
+ "about": "One row per daily run. score = X Score for that day (new originals only, vs targets). prev_score/score_change compare with the run before. Rebuilt from runs/<date>/ on every board build.",
+ "targets": {
+  "new_hits": 36,
+  "new_views": 2000000,
+  "minHitViews": 5000,
+  "starViews": 10000
+ },
+ "targets_basis": "Set 9 Oct 2026 from the 12 comparable runs 27 Sep - 8 Oct (26 Sep was the first scrape, so it has no repeats to strip out). The score counts only NEW originals, not repeats still climbing from yesterday. New hits >=5k per day: median 28, top quarter 36+, best 45. New views per day: median ~0.95M, top fifth 2.0M+, best 2.7M. Score = half new hits vs 36, half new views vs 2.0M, each capped at 100%. Day Target is DONE only when both are met.",
+ "days": [
+  {
+   "date": "2026-09-26",
+   "hits": 34,
+   "starred": 28,
+   "new_hits": 34,
+   "repeat_hits": 0,
+   "total_views": 2794553,
+   "new_views": 2794553,
+   "top_views": 1600000,
+   "top_post": {
+    "handle": "@foundmyfitness",
+    "views": 1600000,
+    "url": "https://x.com/foundmyfitness/status/2103167999611985960"
+   },
+   "drafts": 0,
+   "score": 97,
+   "day_target_done": false,
+   "baseline": true,
+   "prev_date": null,
+   "prev_score": null,
+   "score_change": null
+  },
+  {
+   "date": "2026-09-27",
+   "hits": 34,
+   "starred": 28,
+   "new_hits": 19,
+   "repeat_hits": 15,
+   "total_views": 3885412,
+   "new_views": 726953,
+   "top_views": 2509430,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 2509430,
+    "url": "https://x.com/bryan_johnson/status/2103607895539769379"
+   },
+   "drafts": 26,
+   "score": 45,
+   "day_target_done": false,
+   "prev_date": "2026-09-26",
+   "prev_score": 97,
+   "score_change": -52
+  },
+  {
+   "date": "2026-09-28",
+   "hits": 44,
+   "starred": 39,
+   "new_hits": 27,
+   "repeat_hits": 17,
+   "total_views": 4869294,
+   "new_views": 1147245,
+   "top_views": 2709214,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 2709214,
+    "url": "https://x.com/bryan_johnson/status/2103607895539769379"
+   },
+   "drafts": 25,
+   "score": 66,
+   "day_target_done": false,
+   "prev_date": "2026-09-27",
+   "prev_score": 45,
+   "score_change": 21
+  },
+  {
+   "date": "2026-09-29",
+   "hits": 55,
+   "starred": 49,
+   "new_hits": 30,
+   "repeat_hits": 25,
+   "total_views": 2920327,
+   "new_views": 1155394,
+   "top_views": 538941,
+   "top_post": {
+    "handle": "@hubermanlab",
+    "views": 538941,
+    "url": "https://x.com/hubermanlab/status/2104288936214560910"
+   },
+   "drafts": 25,
+   "score": 71,
+   "day_target_done": false,
+   "prev_date": "2026-09-28",
+   "prev_score": 66,
+   "score_change": 5
+  },
+  {
+   "date": "2026-09-30",
+   "hits": 70,
+   "starred": 54,
+   "new_hits": 36,
+   "repeat_hits": 34,
+   "total_views": 3574037,
+   "new_views": 836772,
+   "top_views": 554287,
+   "top_post": {
+    "handle": "@hubermanlab",
+    "views": 554287,
+    "url": "https://x.com/hubermanlab/status/2104288936214560910"
+   },
+   "drafts": 20,
+   "score": 71,
+   "day_target_done": false,
+   "prev_date": "2026-09-29",
+   "prev_score": 71,
+   "score_change": 0
+  },
+  {
+   "date": "2026-10-01",
+   "hits": 58,
+   "starred": 46,
+   "new_hits": 29,
+   "repeat_hits": 29,
+   "total_views": 3276403,
+   "new_views": 818888,
+   "top_views": 735025,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 735025,
+    "url": "https://x.com/bryan_johnson/status/2105062138632962135"
+   },
+   "drafts": 18,
+   "score": 61,
+   "day_target_done": false,
+   "prev_date": "2026-09-30",
+   "prev_score": 71,
+   "score_change": -10
+  },
+  {
+   "date": "2026-10-02",
+   "hits": 40,
+   "starred": 39,
+   "new_hits": 11,
+   "repeat_hits": 29,
+   "total_views": 2954483,
+   "new_views": 464500,
+   "top_views": 804700,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 804700,
+    "url": "https://x.com/bryan_johnson/status/2105062138632962135"
+   },
+   "drafts": 12,
+   "score": 27,
+   "day_target_done": false,
+   "prev_date": "2026-10-01",
+   "prev_score": 61,
+   "score_change": -34
+  },
+  {
+   "date": "2026-10-03",
+   "hits": 41,
+   "starred": 40,
+   "new_hits": 17,
+   "repeat_hits": 24,
+   "total_views": 2210145,
+   "new_views": 821445,
+   "top_views": 236800,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 236800,
+    "url": "https://x.com/bryan_johnson/status/2105766046003003423"
+   },
+   "drafts": 11,
+   "score": 44,
+   "day_target_done": false,
+   "prev_date": "2026-10-02",
+   "prev_score": 27,
+   "score_change": 17
+  },
+  {
+   "date": "2026-10-04",
+   "hits": 34,
+   "starred": 31,
+   "new_hits": 11,
+   "repeat_hits": 23,
+   "total_views": 2565130,
+   "new_views": 564220,
+   "top_views": 360400,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 360400,
+    "url": "https://x.com/bryan_johnson/status/2106101026646339833"
+   },
+   "drafts": 8,
+   "score": 29,
+   "day_target_done": false,
+   "prev_date": "2026-10-03",
+   "prev_score": 44,
+   "score_change": -15
+  },
+  {
+   "date": "2026-10-05",
+   "hits": 48,
+   "starred": 42,
+   "new_hits": 39,
+   "repeat_hits": 9,
+   "total_views": 4093166,
+   "new_views": 2677183,
+   "top_views": 790000,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 790000,
+    "url": "https://x.com/bryan_johnson/status/2106401417707569368"
+   },
+   "drafts": 11,
+   "score": 100,
+   "day_target_done": true,
+   "prev_date": "2026-10-04",
+   "prev_score": 29,
+   "score_change": 71
+  },
+  {
+   "date": "2026-10-06",
+   "hits": 52,
+   "starred": 38,
+   "new_hits": 45,
+   "repeat_hits": 7,
+   "total_views": 1991469,
+   "new_views": 1598029,
+   "top_views": 356886,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 356886,
+    "url": "https://x.com/bryan_johnson/status/2107147209959727153"
+   },
+   "drafts": 11,
+   "score": 90,
+   "day_target_done": false,
+   "prev_date": "2026-10-05",
+   "prev_score": 100,
+   "score_change": -10
+  },
+  {
+   "date": "2026-10-07",
+   "hits": 76,
+   "starred": 68,
+   "new_hits": 34,
+   "repeat_hits": 42,
+   "total_views": 5169604,
+   "new_views": 2361340,
+   "top_views": 676384,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 676384,
+    "url": "https://x.com/bryan_johnson/status/2107147209959727153"
+   },
+   "drafts": 11,
+   "score": 97,
+   "day_target_done": false,
+   "prev_date": "2026-10-06",
+   "prev_score": 90,
+   "score_change": 7
+  },
+  {
+   "date": "2026-10-08",
+   "hits": 54,
+   "starred": 49,
+   "new_hits": 27,
+   "repeat_hits": 27,
+   "total_views": 4011031,
+   "new_views": 1063004,
+   "top_views": 961176,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 961176,
+    "url": "https://x.com/bryan_johnson/status/2107516394418147828"
+   },
+   "drafts": 15,
+   "score": 64,
+   "day_target_done": false,
+   "prev_date": "2026-10-07",
+   "prev_score": 97,
+   "score_change": -33,
+   "drafts_shown": 24,
+   "drafts_carried": 9
+  }
+ ]
+}

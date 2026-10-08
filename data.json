@@ -2,7 +2,7 @@
  "title": "@steedfast X Virality Board — 2026-10-08",
  "date": "2026-10-08",
  "timezone": "Australia/Sydney",
- "updated": "2026-10-08T11:47:10+11:00",
+ "updated": "2026-10-09T10:30:47+11:00",
  "brand_title": "@steedfast X Virality Board",
  "brand_handle": "@steedfast",
  "hits": [
@@ -18,23 +18,12 @@
    "posted_at": "Wed 07 Oct 2026 04:00 AEDT",
    "media_note": "quote post (image)",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
-  },
-  {
-   "display_name": "Bryan Johnson",
-   "name": "Bryan Johnson",
-   "handle": "@bryan_johnson",
-   "views": 237963,
-   "views_label": "237,963",
-   "url": "https://x.com/bryan_johnson/status/2107825420435644527",
-   "status_url": "https://x.com/bryan_johnson/status/2107825420435644527",
-   "text": "A high status member of society signaling that health is the premium status symbol. \n\n\"I encourage people to compete on health, not wealth rankings or lambos.\" \n\nThe critical threshold for mass adoption will happen at around 75,000 similarly powerful people saying the same thing",
-   "posted_at": "Thu 08 Oct 2026 00:28 AEDT",
-   "media_note": "quote post of @cz_binance (photo)",
-   "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Bryan Johnson says the creatine study everyone's sharing didn't prove much. The muscle gain was mostly water, and people picked for themselves whether they trained.\n\nFair enough. A tub of powder won't do the work for you.\n\nPast 50, the muscle comes from lifting heavy things often, eating enough protein and sleeping. Get those three sorted first. Then worry about what's in the shaker.",
+   "video_tip": "20s face-to-cam; hold up a shaker or protein tub then put it down; captions “Water isn't muscle.” then “Lift, eat, sleep first.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Bryan Johnson",
@@ -48,8 +37,12 @@
    "posted_at": "Tue 06 Oct 2026 13:15 AEDT",
    "media_note": "quote post",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then ('i'm running an experiment', no text to work with)"
   },
   {
    "display_name": "Paul Saladino, MD",
@@ -63,8 +56,12 @@
    "posted_at": "Tue 06 Oct 2026 22:20 AEDT",
    "media_note": "quote post",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Paul Saladino's answer for good testosterone: steak, squash, sunshine and sleep.\n\nStrip out the hype and it's the same old basics. Real food. Time outside. A proper night's sleep.\n\nNone of it comes in a vial, and none of it is new. Most of us just stopped doing it. Eat like a person, get some sun on your arms, and get to bed on time.",
+   "video_tip": "20s outdoor face-to-cam in sunlight; on-screen list “Real food. Sun. Sleep.” one word per beat.",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -78,8 +75,12 @@
    "posted_at": "Wed 07 Oct 2026 02:49 AEDT",
    "media_note": "quote post",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then ('Indeed.', no text)"
   },
   {
    "display_name": "Bryan Johnson",
@@ -93,8 +94,12 @@
    "posted_at": "Wed 07 Oct 2026 02:09 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (race car drivers, celebrity)"
   },
   {
    "display_name": "Bryan Johnson",
@@ -108,8 +113,12 @@
    "posted_at": "Wed 07 Oct 2026 00:42 AEDT",
    "media_note": "none",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Bryan Johnson reckons by 2030 new therapies and automation will take discipline and effort out of being healthy.\n\nMaybe. But nobody's sending a robot to do your squats.\n\nUntil that day turns up, it's still on you. Walk, lift, eat real food, sleep. Effort isn't the problem to be fixed. It's the bit that works.",
+   "video_tip": "15–20s face-to-cam; caption “No robot is doing your squats.” then “Effort is the bit that works.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Bryan Johnson",
@@ -123,8 +132,12 @@
    "posted_at": "Tue 06 Oct 2026 17:28 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (filters and retouch joke, thin)"
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -138,8 +151,12 @@
    "posted_at": "Wed 07 Oct 2026 03:25 AEDT",
    "media_note": "quote post of @davidsenra",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: praise for another podcast host"
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -153,8 +170,12 @@
    "posted_at": "Wed 07 Oct 2026 03:30 AEDT",
    "media_note": "quote post",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Andrew Huberman's line: think of all the time and energy people waste getting triggered.\n\nHe's right. Every hour spent fuming about something online or some bloke on site is an hour you don't get back.\n\nBuild something. Learn something. Look after your body. Help someone out. That's a better use of a day than being wound up.",
+   "video_tip": "15s face-to-cam, calm tone; caption “Stop getting triggered.” then “Build. Learn. Train. Help.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -168,8 +189,12 @@
    "posted_at": "Thu 08 Oct 2026 06:29 AEDT",
    "media_note": "quote post of @SahilBloom (\"Dopamine from information gathering is a dangerous drug. Get your dopamine from action.\")",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Andrew Huberman backed Sahil Bloom's line: dopamine from information gathering is a dangerous drug. Get your dopamine from action.\n\nThat one's worth sitting with. You can watch a hundred videos about fixing your back and never do one stretch.\n\nReading about it isn't doing it. Pick one thing you already know you should be doing, and do it today before you look up anything new.",
-   "video_tip": "15–20s face-to-cam; hold the phone up, then put it in your pocket; captions “Stop gathering. Start doing.” then “One thing. Today.”"
+   "video_tip": "15–20s face-to-cam; hold the phone up, then put it in your pocket; captions “Stop gathering. Start doing.” then “One thing. Today.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Dr. Rhonda Patrick",
@@ -183,8 +208,12 @@
    "posted_at": "Wed 07 Oct 2026 06:03 AEDT",
    "media_note": "video",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (blueberry one-cup detail, folded into Draft 4)"
   },
   {
    "display_name": "Bryan Johnson",
@@ -198,8 +227,12 @@
    "posted_at": "Thu 08 Oct 2026 03:16 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Bryan Johnson reckons sitting, typing and scrolling are about to lose status. What will count is what can't be automated or faked: a body and mind that actually work.\n\nGood news if you work with your hands. A machine can write the email. It can't carry your body up the scaffold.\n\nLook after the one thing nobody can automate. Move every day, lift something heavy, and keep your head clear.",
-   "video_tip": "20s face-to-cam outdoors or by the ute; captions “You can't automate a strong body.” then “Move. Lift. Clear head.”"
+   "video_tip": "20s face-to-cam outdoors or by the ute; captions “You can't automate a strong body.” then “Move. Lift. Clear head.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Eric Topol",
@@ -213,8 +246,12 @@
    "posted_at": "Wed 07 Oct 2026 04:37 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (MedGemma AI model, off lane)"
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -228,8 +265,12 @@
    "posted_at": "Wed 07 Oct 2026 16:56 AEDT",
    "media_note": "video",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: live event and book promo"
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -243,8 +284,12 @@
    "posted_at": "Wed 07 Oct 2026 11:50 AEDT",
    "media_note": "quote post",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: brain implants / Neuralink tech news"
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -258,8 +303,12 @@
    "posted_at": "Wed 07 Oct 2026 02:55 AEDT",
    "media_note": "quote post of @SahilBloom",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (thanks to Sahil Bloom, off lane)"
   },
   {
    "display_name": "Andrew D. Huberman, Ph.D.",
@@ -273,8 +322,12 @@
    "posted_at": "Thu 08 Oct 2026 05:05 AEDT",
    "media_note": "quote post",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": false,
+   "first_seen": "2026-10-08",
+   "draft_en": "Andrew Huberman says one of the most important lessons he ever learned: success comes from matching your genuine curiosity to the work you do.\n\nYou see it on every site. The ones who want to know how the job goes together, why the load chart says what it says, how the lift gets planned, are the ones who end up running the job.\n\nYou don't have to love every shift. Find the part of the work you're actually curious about and lean into it. There's still something new to learn most weeks if you're paying attention.",
+   "video_tip": "15–20s on site by the telehandler, point at the load chart; captions “Be curious about the job.” then “The curious ones end up running it.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Bryan Johnson",
@@ -288,8 +341,12 @@
    "posted_at": "Thu 08 Oct 2026 04:52 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Bryan Johnson says humans are status-seeking monkeys, and role models set the games everyone else plays.\n\nLook around any site. The young blokes copy what the older ones do, good and bad. Skipping brekky, lifting with the back, never seeing a doctor.\n\nYou're somebody's role model whether you like it or not. Lift with your legs, eat a proper feed, get your check-ups. Someone's watching.",
-   "video_tip": "15–20s face-to-cam on site or by the ute; captions “Someone's copying you.” then “Make it worth copying.”"
+   "video_tip": "15–20s face-to-cam on site or by the ute; captions “Someone's copying you.” then “Make it worth copying.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Eric Topol",
@@ -303,8 +360,12 @@
    "posted_at": "Wed 07 Oct 2026 07:44 AEDT",
    "media_note": "image",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Eric Topol shared a trial where exercise during cancer treatment improved survival by 37%. Yet very few health systems actually build it into care.\n\nThat's a big number for something so plain.\n\nIf you or someone you love is going through treatment, ask the doctor about an exercise plan. Moving your body isn't a side issue. It's part of the fight.",
+   "video_tip": "20s face-to-cam, serious tone; caption “Exercise in cancer care: 37% better survival in one trial.” then “Ask your doctor.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Bryan Johnson",
@@ -318,8 +379,12 @@
    "posted_at": "Wed 07 Oct 2026 06:40 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (madman or messiah essay, off lane)"
   },
   {
    "display_name": "Nick Norwitz MD PhD",
@@ -333,8 +398,12 @@
    "posted_at": "Wed 07 Oct 2026 00:26 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (free metabolic guide, promo (scorecard drafted instead))"
   },
   {
    "display_name": "Eric Topol",
@@ -348,8 +417,12 @@
    "posted_at": "Thu 08 Oct 2026 00:13 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Eric Topol shared new data: semaglutide (Ozempic) took 2 to 4 years off the blood-protein age of the heart, arteries and kidneys across five placebo-controlled trials.\n\nThat's a big result. It's still a prescription drug, not a smoko-room tip.\n\nIf you're on the jab or thinking about it, have the proper chat with your GP and ask about your heart and kidney numbers while you're there. Keep lifting and eating protein either way.",
-   "video_tip": "20s face-to-cam, calm tone; captions “Ozempic: 2–4 years younger heart, artery, kidney clocks.” then “Talk to your GP, not the smoko room.”"
+   "video_tip": "20s face-to-cam, calm tone; captions “Ozempic: 2–4 years younger heart, artery, kidney clocks.” then “Talk to your GP, not the smoko room.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -363,8 +436,12 @@
    "posted_at": "Wed 07 Oct 2026 03:28 AEDT",
    "media_note": "quote post of @adcock_brett",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (congrats post, off lane)"
   },
   {
    "display_name": "Nick Norwitz MD PhD",
@@ -378,8 +455,12 @@
    "posted_at": "Wed 07 Oct 2026 04:03 AEDT",
    "media_note": "quote post of @nicknorwitz",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Nick Norwitz posted a seven-point metabolic health scorecard: blood pressure, fasting insulin, triglycerides, HDL, HbA1c, inflammation, and waist-to-height ratio.\n\nMost blokes over 50 couldn't name one of their own numbers.\n\nNext time you're at the GP, ask for your bloods and write them down. Even the tape measure around the belly tells you something. You can't fix what you never check.",
+   "video_tip": "20s face-to-cam with a tape measure; caption “7 numbers. How many do you know?” then “Ask your GP.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Mark Hyman, M.D.",
@@ -393,8 +474,12 @@
    "posted_at": "Wed 07 Oct 2026 10:59 AEDT",
    "media_note": "video",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Mark Hyman says what he does when a cold's coming on isn't just vitamin C. His episode runs through whole foods, sleep, stress, vitamin D and getting your nutrients checked.\n\nA lot of us just neck a fizzy vitamin and push through the shift.\n\nYour immune system runs on the basics. Get to bed early when you feel it coming, eat real food, and if you keep getting knocked flat, ask your GP to check your vitamin D.",
-   "video_tip": "15–20s phone on the bench, a mug of tea and an early-night alarm on screen; captions “It's not just vitamin C.” then “Sleep. Real food. Check your vitamin D.”"
+   "video_tip": "15–20s phone on the bench, a mug of tea and an early-night alarm on screen; captions “It's not just vitamin C.” then “Sleep. Real food. Check your vitamin D.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Paul Saladino, MD",
@@ -408,8 +493,12 @@
    "posted_at": "Wed 07 Oct 2026 23:29 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: protein bar brand promo"
   },
   {
    "display_name": "Dr. Rhonda Patrick",
@@ -423,8 +512,12 @@
    "posted_at": "Thu 08 Oct 2026 02:11 AEDT",
    "media_note": "video",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": false,
+   "first_seen": "2026-10-08",
+   "draft_en": "Rhonda Patrick shared the research on blueberries and the ageing brain. Older women in the Nurses' Health Study who ate at least half a cup a week had slower memory decline, about 1.5 to 2.5 years younger in brain terms.\n\nShe's upfront that these studies are observational, so they can't prove blueberries prevent dementia. But half a cup a week is cheap and easy.\n\nFrozen ones are fine and usually cheaper. Chuck a handful on your brekky a few times a week. Your brain's worth looking after as much as your back.",
+   "video_tip": "15s phone on the bench, tip frozen blueberries onto porridge or yoghurt; captions “Half a cup a week.” then “Frozen is fine. Cheap and easy.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Eric Topol",
@@ -438,8 +531,12 @@
    "posted_at": "Wed 07 Oct 2026 02:41 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (retina AI in pregnancy, too technical)"
   },
   {
    "display_name": "Paul Saladino, MD",
@@ -453,8 +550,12 @@
    "posted_at": "Tue 06 Oct 2026 23:42 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (plague lab news, skip)"
   },
   {
    "display_name": "Eric Topol",
@@ -468,8 +569,12 @@
    "posted_at": "Wed 07 Oct 2026 01:03 AEDT",
    "media_note": "video",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (Michael Lewis NIH book, politics)"
   },
   {
    "display_name": "Paul Saladino, MD",
@@ -483,8 +588,12 @@
    "posted_at": "Thu 08 Oct 2026 05:06 AEDT",
    "media_note": "quote post",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "no usable text: 'My team is wild.'"
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -498,8 +607,12 @@
    "posted_at": "Wed 07 Oct 2026 09:25 AEDT",
    "media_note": "none",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Peter Diamandis says AGI will not end human purpose.\n\nMachines might take over plenty of tasks. They won't take over turning up for your family, your mates, and your own body.\n\nPurpose was never just the job. It's who you look after, what you build, and keeping yourself fit enough to keep doing it.",
+   "video_tip": "15s face-to-cam outdoors; caption “AI won't end human purpose.” then “Purpose = who you look after.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Benjamin Bikman",
@@ -513,8 +626,12 @@
    "posted_at": "Wed 07 Oct 2026 07:34 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (sauna door joke, light)"
   },
   {
    "display_name": "Eric Topol",
@@ -528,8 +645,12 @@
    "posted_at": "Thu 08 Oct 2026 00:43 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: AI biology funding news"
   },
   {
    "display_name": "Eric Topol",
@@ -543,8 +664,12 @@
    "posted_at": "Wed 07 Oct 2026 10:34 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (statins and glaucoma, link only)"
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -558,8 +683,12 @@
    "posted_at": "Wed 07 Oct 2026 05:04 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: entrepreneur 'what's your moonshot' prompt"
   },
   {
    "display_name": "Dr. Jason Fung",
@@ -573,8 +702,12 @@
    "posted_at": "Tue 06 Oct 2026 13:29 AEDT",
    "media_note": "quote post",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then ('fantastic results' with no detail, thin)"
   },
   {
    "display_name": "David Sinclair",
@@ -588,8 +721,12 @@
    "posted_at": "Wed 07 Oct 2026 15:14 AEDT",
    "media_note": "image",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": false,
+   "first_seen": "2026-10-08",
+   "draft_en": "David Sinclair shared a line from a 2009 paper: random damage to our DNA could explain the predictable changes we call ageing, and those changes may one day be reversible.\n\nThat's the lab end of it. The practical end for the rest of us is cutting down what damages your cells in the first place.\n\nOutdoor workers cop a lot: years of sun, dust, smoke and fumes. Wear your hat and sunscreen, wear the right mask for the dust, and if you still smoke, that's the big one to knock off.",
+   "video_tip": "15–20s on site, put on a brimmed hat and a dust mask; captions “Ageing is damage adding up.” then “Hat. Mask. Ditch the smokes.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -603,8 +740,12 @@
    "posted_at": "Thu 08 Oct 2026 05:02 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Peter Diamandis: you do not need to be the world's leading expert on any subject to start working on a problem.\n\nSame goes for your health. You don't need a PT, a gym membership or a nutrition degree to start.\n\nWalk after dinner. Do ten squats while the kettle boils. Start simple and learn as you go.",
-   "video_tip": "15s phone on the bench in the kitchen; ten squats while the kettle boils; captions “No expert needed.” then “10 squats while the kettle boils.”"
+   "video_tip": "15s phone on the bench in the kitchen; ten squats while the kettle boils; captions “No expert needed.” then “10 squats while the kettle boils.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Eric Topol",
@@ -618,8 +759,12 @@
    "posted_at": "Thu 08 Oct 2026 02:14 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "link-only: topic isn't stated in the post text"
   },
   {
    "display_name": "Mark Hyman, M.D.",
@@ -633,8 +778,12 @@
    "posted_at": "Thu 08 Oct 2026 06:56 AEDT",
    "media_note": "video",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Mark Hyman says your skin ages from the inside out: alcohol, sugar, insulin resistance, gut trouble, and sun damage.\n\nIf you work outdoors, that last one's the big one. Years of Aussie sun on your face, neck and arms add up.\n\nSlip, slop, slap isn't just for kids. Brimmed hat, long sleeves, sunscreen again at smoko. And get any new or changing spot looked at by your GP.",
-   "video_tip": "20s outdoor face-to-cam in a brimmed hat; put sunscreen on your neck and ears; captions “Your skin keeps score.” then “Hat. Sleeves. Sunscreen at smoko.”"
+   "video_tip": "20s outdoor face-to-cam in a brimmed hat; put sunscreen on your neck and ears; captions “Your skin keeps score.” then “Hat. Sleeves. Sunscreen at smoko.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "David Sinclair",
@@ -648,8 +797,12 @@
    "posted_at": "Thu 08 Oct 2026 06:11 AEDT",
    "media_note": "image",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: symposium photo / congrats"
   },
   {
    "display_name": "Eric Topol",
@@ -663,8 +816,12 @@
    "posted_at": "Thu 08 Oct 2026 02:38 AEDT",
    "media_note": "image",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": false,
+   "first_seen": "2026-10-08",
+   "draft_en": "Eric Topol flagged new research in Nature on catching lung cancer before it turns invasive, by tracking the immune cells that let it take hold.\n\nThat's still lab work. But catching it early already matters right now.\n\nIf you're 50 to 70 and you've been a heavy smoker, now or in the last 10 years, ask your GP about the free National Lung Cancer Screening Program. It's a low-dose CT scan. Plenty of us spent years around smoke and dust on site. Get checked.",
+   "video_tip": "15–20s face-to-cam in the ute; captions “Catch it early.” then “50–70 and smoked? Ask your GP about the free lung scan.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -678,8 +835,12 @@
    "posted_at": "Wed 07 Oct 2026 01:24 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then ('always try', generic)"
   },
   {
    "display_name": "Benjamin Bikman",
@@ -693,8 +854,12 @@
    "posted_at": "Wed 07 Oct 2026 22:34 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Ben Bikman says type 2 diabetes starts in your fat cells, but blood sugar only really climbs once the problem reaches your muscle. Muscle is where most of your blood sugar goes.\n\nSo your muscle isn't just for lifting gear. It's keeping your blood sugar in check.\n\nHis advice: lift two or three times a week for the signal, and put protein and fat on the plate for the fuel. Protect your muscle like your blood sugar depends on it, because it does.",
-   "video_tip": "20s face-to-cam, holding a dumbbell or a bag of cement; captions “Muscle soaks up blood sugar.” then “Lift 2–3x a week. Feed it protein.”"
+   "video_tip": "20s face-to-cam, holding a dumbbell or a bag of cement; captions “Muscle soaks up blood sugar.” then “Lift 2–3x a week. Feed it protein.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Ken D Berry MD",
@@ -708,8 +873,12 @@
    "posted_at": "Wed 07 Oct 2026 02:50 AEDT",
    "media_note": "image",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Ken Berry's point for anyone on Ozempic, Wegovy, Mounjaro or Zepbound: when you're eating half as much, every bite has to count, or you lose muscle and bone along with the fat.\n\nHe starts with eggs, yolk included.\n\nEating less only helps if you're still feeding the muscle. Protein first, then everything else. At our age, losing muscle is the one loss you don't want.",
+   "video_tip": "15–20s phone on the bench, cracking eggs into a pan; caption “Eating less? Protein first.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Nick Norwitz MD PhD",
@@ -723,8 +892,12 @@
    "posted_at": "Wed 07 Oct 2026 22:09 AEDT",
    "media_note": "quote post of @nicknorwitz (image)",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Nick Norwitz says how healthy a food is depends on who's eating it. For someone with insulin resistance, a bowl of oats and fruit can spike blood sugar, while bacon and eggs may suit them better.\n\nNo food is good or bad for everybody. A health halo doesn't tell you how your body handles it.\n\nIf you're carrying weight around the middle, ask your GP to check your fasting insulin and HbA1c. Then you know what breakfast actually suits you.",
-   "video_tip": "15–20s phone on the bench, a bowl of oats next to a plate of eggs; captions “Healthy for who?” then “Ask your GP for fasting insulin + HbA1c.”"
+   "video_tip": "15–20s phone on the bench, a bowl of oats next to a plate of eggs; captions “Healthy for who?” then “Ask your GP for fasting insulin + HbA1c.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Eric Topol",
@@ -738,8 +911,12 @@
    "posted_at": "Thu 08 Oct 2026 05:37 AEDT",
    "media_note": "image",
    "highlight": true,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": false,
+   "first_seen": "2026-10-08",
+   "draft_en": "Eric Topol shared a study on a giant tortoise that has lived 194 years, the oldest land animal alive. Researchers found 287 unique gene variants and less of the random \"noise\" that usually builds up in DNA with age.\n\nSo a fair bit of it is genes, and you can't pick yours.\n\nWhat you can pick is how you treat what you've got. Keep moving, keep your muscle, sleep properly and get your check-ups. Slow and steady still works.",
+   "video_tip": "15s slow walk round the yard or a bush track; captions “194 years. Slow and steady.” then “Can't pick your genes. Can pick your habits.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -753,8 +930,12 @@
    "posted_at": "Thu 08 Oct 2026 00:30 AEDT",
    "media_note": "none",
    "highlight": true,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "off-topic: entrepreneur talk"
   },
   {
    "display_name": "Dr. Jason Fung",
@@ -768,8 +949,12 @@
    "posted_at": "Wed 07 Oct 2026 08:20 AEDT",
    "media_note": "link (youtube)",
    "highlight": false,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "below the 10K starred line (9.3K)"
   },
   {
    "display_name": "Nick Norwitz MD PhD",
@@ -783,8 +968,12 @@
    "posted_at": "Thu 08 Oct 2026 05:33 AEDT",
    "media_note": "quote post of @nicknorwitz (pinned video)",
    "highlight": false,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "Nick Norwitz's red flags that it's time to find a new doctor: they talk in absolutes, they get defensive when you ask a fair question, and they treat questions like insubordination.\n\nA good GP doesn't need you to just do as you're told. They explain your options so you can decide about your own body.\n\nWrite your questions down before the appointment and ask every one. If the doctor brushes you off every time, you're allowed to find another one.",
-   "video_tip": "20s face-to-cam in the car before an appointment, holding a written list; captions “3 red flags in a doctor.” then “Bring your questions. Ask them.”"
+   "video_tip": "20s face-to-cam in the car before an appointment, holding a written list; captions “3 red flags in a doctor.” then “Bring your questions. Ask them.”",
+   "draft_from": "2026-10-08",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Layne Norton, PhD",
@@ -798,8 +987,12 @@
    "posted_at": "Tue 06 Oct 2026 23:30 AEDT",
    "media_note": "quote post",
    "highlight": false,
-   "draft_en": "",
-   "video_tip": ""
+   "repeat": true,
+   "first_seen": "2026-10-07",
+   "draft_en": "Layne Norton says some ways of dampening inflammation, like ice baths or anti-inflammatory tablets, may get in the way of muscle building, while others don't. He's still picking apart the data.\n\nWorth knowing if you train after work and reach for the pills or the ice for every ache.\n\nSoreness is part of getting stronger. Talk to your doctor about painkillers and don't treat every niggle like an emergency.",
+   "video_tip": "15–20s face-to-cam; caption “Ice and pills for every ache?” then “Soreness is part of getting stronger.”",
+   "draft_from": "2026-10-07",
+   "draft_skip_reason": ""
   },
   {
    "display_name": "Andy Galpin, PhD",
@@ -813,8 +1006,12 @@
    "posted_at": "Wed 07 Oct 2026 03:17 AEDT",
    "media_note": "quote post",
    "highlight": false,
+   "repeat": true,
+   "first_seen": "2026-10-07",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "repeat from 7 Oct; not drafted then (testosterone clip, link only)"
   },
   {
    "display_name": "Peter H. Diamandis, MD",
@@ -828,11 +1025,15 @@
    "posted_at": "Thu 08 Oct 2026 08:30 AEDT",
    "media_note": "none",
    "highlight": false,
+   "repeat": false,
+   "first_seen": "2026-10-08",
    "draft_en": "",
-   "video_tip": ""
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "below the 10K starred line (7.0K), entrepreneur talk"
   }
  ],
- "hits_count": 55,
+ "hits_count": 54,
  "outsiders": [
   {
    "name": "Elon Musk",
@@ -1251,50 +1452,434 @@
  ],
  "narrative_synthesis": "Outside the health lane, AI talk on X was about \"best model wins\" and AI doing real science. Elon Musk's note that Grok @Bot will use whichever back-end model suits the task, Claude Opus 5.5, Midjourney and Suno included, was the biggest post by miles (~67.9M), echoed by Min Choi (~4.4M) and Chubby (~107K). OpenAI's new maths results from an internal frontier model (~18.3M) and Sam Altman's \"new era of discovery\" (~1.8M) led the science thread, with Demis Hassabis on AI for medicine (~105K), Google Earth AI for disease outbreaks (~118K) and Google's TPUs in orbit (~563K). New drops kept coming: Claude Haiku 5.5 (~2.8M), GPT-6 with Intelligent UI (~2.4M), OpenAI's Decisions API (~1.5M), Cursor agents from your phone (~154K). Trust was the other big thread: Google's SynthID Detector (~657K), ChatGPT watermarks in the EU (~168K), ChatGPT for Teens (~200K), and Claude steering a teenager onto a cliff route that needed a helicopter rescue (~62K). For Tama, the \"AI got it wrong, use your own judgment\" and \"machines can't do your body for you\" angles fit a worker voice; the product launches are meta only.",
  "virals_narrative": "Outside the health lane, AI talk on X was about \"best model wins\" and AI doing real science. Elon Musk's note that Grok @Bot will use whichever back-end model suits the task, Claude Opus 5.5, Midjourney and Suno included, was the biggest post by miles (~67.9M), echoed by Min Choi (~4.4M) and Chubby (~107K). OpenAI's new maths results from an internal frontier model (~18.3M) and Sam Altman's \"new era of discovery\" (~1.8M) led the science thread, with Demis Hassabis on AI for medicine (~105K), Google Earth AI for disease outbreaks (~118K) and Google's TPUs in orbit (~563K). New drops kept coming: Claude Haiku 5.5 (~2.8M), GPT-6 with Intelligent UI (~2.4M), OpenAI's Decisions API (~1.5M), Cursor agents from your phone (~154K). Trust was the other big thread: Google's SynthID Detector (~657K), ChatGPT watermarks in the EU (~168K), ChatGPT for Teens (~200K), and Claude steering a teenager onto a cliff route that needed a helicopter rescue (~62K). For Tama, the \"AI got it wrong, use your own judgment\" and \"machines can't do your body for you\" angles fit a worker voice; the product launches are meta only.",
+ "drafts_count": 24,
+ "drafts_new": 15,
+ "drafts_carried": 9,
+ "score": {
+  "x_score": 64,
+  "new_hits": 27,
+  "new_views": 1063004,
+  "prev_date": "2026-10-07",
+  "prev_score": 97,
+  "change": -33,
+  "day_target_done": false,
+  "targets": {
+   "new_hits": 36,
+   "new_views": 2000000,
+   "minHitViews": 5000,
+   "starViews": 10000
+  },
+  "targets_basis": "Set 9 Oct 2026 from the 12 comparable runs 27 Sep - 8 Oct (26 Sep was the first scrape, so it has no repeats to strip out). The score counts only NEW originals, not repeats still climbing from yesterday. New hits >=5k per day: median 28, top quarter 36+, best 45. New views per day: median ~0.95M, top fifth 2.0M+, best 2.7M. Score = half new hits vs 36, half new views vs 2.0M, each capped at 100%. Day Target is DONE only when both are met.",
+  "recent": [
+   {
+    "date": "2026-10-02",
+    "score": 27
+   },
+   {
+    "date": "2026-10-03",
+    "score": 44
+   },
+   {
+    "date": "2026-10-04",
+    "score": 29
+   },
+   {
+    "date": "2026-10-05",
+    "score": 100
+   },
+   {
+    "date": "2026-10-06",
+    "score": 90
+   },
+   {
+    "date": "2026-10-07",
+    "score": 97
+   },
+   {
+    "date": "2026-10-08",
+    "score": 64
+   }
+  ]
+ },
+ "x_score": 64,
+ "previous_day": {
+  "date": "2026-10-07",
+  "x_score": 97,
+  "hits_count": 76,
+  "total_views": 5169604,
+  "starred": 68
+ },
  "no_hits": [
   {
    "handle": "@PeterAttiaMD",
-   "reason": "No qualifying original ≥5k views in today's scrape window.",
-   "max_views": null
+   "reason": "No posts in the window. Last post was 3 Feb 2026; the account has been silent for 8 months.",
+   "max_views": null,
+   "max_views_url": null,
+   "max_label": "no posts"
   },
   {
    "handle": "@sleepdiplomat",
-   "reason": "No qualifying original ≥5k views in today's scrape window.",
-   "max_views": null
+   "reason": "Only thread replies in the window (4 add-ons to an older cortisol thread, no new original). Best was 2.8K.",
+   "max_views": 2810,
+   "max_views_url": "https://x.com/sleepdiplomat/status/2107533250071605710",
+   "max_label": null
   },
   {
    "handle": "@timspector",
-   "reason": "No qualifying original ≥5k views in today's scrape window.",
-   "max_views": null
+   "reason": "No posts in the window. Last post was 5 Oct (an event plug, 3.3K views), just before the window.",
+   "max_views": null,
+   "max_views_url": null,
+   "max_label": "no posts"
   },
   {
    "handle": "@BradStanfieldMD",
-   "reason": "No qualifying original ≥5k views in today's scrape window.",
-   "max_views": null
+   "reason": "Only replies to other people in the window (3), no originals. Best was 755.",
+   "max_views": 755,
+   "max_views_url": "https://x.com/BradStanfieldMD/status/2107683136499064958",
+   "max_label": null
   },
   {
    "handle": "@JeffNippard",
-   "reason": "No qualifying original ≥5k views in today's scrape window.",
-   "max_views": null
+   "reason": "No posts in the window. Last post was 28 Feb 2026; silent for over 7 months.",
+   "max_views": null,
+   "max_views_url": null,
+   "max_label": "no posts"
   },
   {
    "handle": "@aubreydegrey",
-   "reason": "No qualifying original ≥5k views in today's scrape window.",
-   "max_views": null
+   "reason": "Only 1 reply in the window, no originals. Best was 75.",
+   "max_views": 75,
+   "max_views_url": "https://x.com/aubreydegrey/status/2107933366146224386",
+   "max_label": null
   }
  ],
  "leaderboards": {
   "as_of": "2026-10-08",
+  "tracking_start": "2026-09-26",
+  "days_included": [
+   "2026-10-02",
+   "2026-10-03",
+   "2026-10-04",
+   "2026-10-05",
+   "2026-10-06",
+   "2026-10-07",
+   "2026-10-08"
+  ],
+  "month_days_included": [
+   "2026-10-01",
+   "2026-10-02",
+   "2026-10-03",
+   "2026-10-04",
+   "2026-10-05",
+   "2026-10-06",
+   "2026-10-07",
+   "2026-10-08"
+  ],
   "week": {
-   "label": "Week",
-   "entries": []
+   "label": "Rolling week · Oct 2–Oct 8",
+   "range": [
+    "2026-10-02",
+    "2026-10-08"
+   ],
+   "entries": [
+    {
+     "handle": "@bryan_johnson",
+     "name": "Bryan Johnson",
+     "hits": 23,
+     "days": 6,
+     "views": 5661349,
+     "best": 961176,
+     "best_url": "https://x.com/bryan_johnson/status/2107516394418147828"
+    },
+    {
+     "handle": "@hubermanlab",
+     "name": "Andrew D. Huberman, Ph.D.",
+     "hits": 25,
+     "days": 6,
+     "views": 2253422,
+     "best": 260000,
+     "best_url": "https://x.com/hubermanlab/status/2106083912061714886"
+    },
+    {
+     "handle": "@EricTopol",
+     "name": "Eric Topol",
+     "hits": 32,
+     "days": 7,
+     "views": 1343232,
+     "best": 233200,
+     "best_url": "https://x.com/EricTopol/status/2105652608866336835"
+    },
+    {
+     "handle": "@paulsaladinomd",
+     "name": "Paul Saladino, MD",
+     "hits": 11,
+     "days": 7,
+     "views": 1020743,
+     "best": 482000,
+     "best_url": "https://x.com/paulsaladinomd/status/2106443425285636523"
+    },
+    {
+     "handle": "@PeterDiamandis",
+     "name": "Peter H. Diamandis, MD",
+     "hits": 29,
+     "days": 6,
+     "views": 675520,
+     "best": 66302,
+     "best_url": "https://x.com/PeterDiamandis/status/2106521673268899994"
+    },
+    {
+     "handle": "@davidasinclair",
+     "name": "David Sinclair",
+     "hits": 15,
+     "days": 7,
+     "views": 671441,
+     "best": 111200,
+     "best_url": "https://x.com/davidasinclair/status/2105666970800775170"
+    },
+    {
+     "handle": "@foundmyfitness",
+     "name": "Dr. Rhonda Patrick",
+     "hits": 8,
+     "days": 4,
+     "views": 533845,
+     "best": 132652,
+     "best_url": "https://x.com/foundmyfitness/status/2107495437775081868"
+    },
+    {
+     "handle": "@nicknorwitz",
+     "name": "Nick Norwitz MD PhD",
+     "hits": 13,
+     "days": 6,
+     "views": 255024,
+     "best": 61159,
+     "best_url": "https://x.com/nicknorwitz/status/2107462621456650317"
+    },
+    {
+     "handle": "@KenDBerryMD",
+     "name": "Ken D Berry MD",
+     "hits": 9,
+     "days": 5,
+     "views": 152660,
+     "best": 40623,
+     "best_url": "https://x.com/KenDBerryMD/status/2106168027708551191"
+    },
+    {
+     "handle": "@drmarkhyman",
+     "name": "Mark Hyman, M.D.",
+     "hits": 3,
+     "days": 2,
+     "views": 149411,
+     "best": 87864,
+     "best_url": "https://x.com/drmarkhyman/status/2106761423078732158"
+    },
+    {
+     "handle": "@BenBikmanPhD",
+     "name": "Benjamin Bikman",
+     "hits": 6,
+     "days": 5,
+     "views": 128737,
+     "best": 50200,
+     "best_url": "https://x.com/BenBikmanPhD/status/2105726655339843742"
+    },
+    {
+     "handle": "@DrAndyGalpin",
+     "name": "Andy Galpin, PhD",
+     "hits": 4,
+     "days": 4,
+     "views": 84097,
+     "best": 60100,
+     "best_url": "https://x.com/DrAndyGalpin/status/2105644293436383688"
+    },
+    {
+     "handle": "@drjasonfung",
+     "name": "Dr. Jason Fung",
+     "hits": 2,
+     "days": 2,
+     "views": 32800,
+     "best": 23547,
+     "best_url": "https://x.com/drjasonfung/status/2107297192906256678"
+    },
+    {
+     "handle": "@BioLayne",
+     "name": "Layne Norton, PhD",
+     "hits": 2,
+     "days": 2,
+     "views": 24725,
+     "best": 17487,
+     "best_url": "https://x.com/BioLayne/status/2106960764649062863"
+    },
+    {
+     "handle": "@sleepdiplomat",
+     "name": "sleepdiplomat",
+     "hits": 1,
+     "days": 1,
+     "views": 14972,
+     "best": 14972,
+     "best_url": "https://x.com/sleepdiplomat/status/2107185127314821131"
+    },
+    {
+     "handle": "@BradStanfieldMD",
+     "name": "Dr Brad Stanfield",
+     "hits": 1,
+     "days": 1,
+     "views": 7870,
+     "best": 7870,
+     "best_url": "https://x.com/BradStanfieldMD/status/2105836060068720827"
+    }
+   ]
   },
   "month": {
-   "label": "Month",
-   "entries": []
-  },
-  "days_included": [
-   "2026-10-08"
-  ]
+   "label": "October 2026 · from Oct 1",
+   "range": [
+    "2026-10-01",
+    "2026-10-08"
+   ],
+   "entries": [
+    {
+     "handle": "@bryan_johnson",
+     "name": "Bryan Johnson",
+     "hits": 24,
+     "days": 7,
+     "views": 5773349,
+     "best": 961176,
+     "best_url": "https://x.com/bryan_johnson/status/2107516394418147828"
+    },
+    {
+     "handle": "@hubermanlab",
+     "name": "Andrew D. Huberman, Ph.D.",
+     "hits": 25,
+     "days": 6,
+     "views": 2253422,
+     "best": 260000,
+     "best_url": "https://x.com/hubermanlab/status/2106083912061714886"
+    },
+    {
+     "handle": "@EricTopol",
+     "name": "Eric Topol",
+     "hits": 37,
+     "days": 8,
+     "views": 1494432,
+     "best": 233200,
+     "best_url": "https://x.com/EricTopol/status/2105652608866336835"
+    },
+    {
+     "handle": "@paulsaladinomd",
+     "name": "Paul Saladino, MD",
+     "hits": 12,
+     "days": 8,
+     "views": 1032140,
+     "best": 482000,
+     "best_url": "https://x.com/paulsaladinomd/status/2106443425285636523"
+    },
+    {
+     "handle": "@davidasinclair",
+     "name": "David Sinclair",
+     "hits": 18,
+     "days": 8,
+     "views": 806232,
+     "best": 111200,
+     "best_url": "https://x.com/davidasinclair/status/2105666970800775170"
+    },
+    {
+     "handle": "@PeterDiamandis",
+     "name": "Peter H. Diamandis, MD",
+     "hits": 33,
+     "days": 7,
+     "views": 738320,
+     "best": 66302,
+     "best_url": "https://x.com/PeterDiamandis/status/2106521673268899994"
+    },
+    {
+     "handle": "@foundmyfitness",
+     "name": "Dr. Rhonda Patrick",
+     "hits": 10,
+     "days": 5,
+     "views": 692745,
+     "best": 132652,
+     "best_url": "https://x.com/foundmyfitness/status/2107495437775081868"
+    },
+    {
+     "handle": "@nicknorwitz",
+     "name": "Nick Norwitz MD PhD",
+     "hits": 14,
+     "days": 7,
+     "views": 299724,
+     "best": 61159,
+     "best_url": "https://x.com/nicknorwitz/status/2107462621456650317"
+    },
+    {
+     "handle": "@BradStanfieldMD",
+     "name": "Dr Brad Stanfield",
+     "hits": 2,
+     "days": 2,
+     "views": 239570,
+     "best": 231700,
+     "best_url": "https://x.com/BradStanfieldMD/status/2105066886761456125"
+    },
+    {
+     "handle": "@drmarkhyman",
+     "name": "Mark Hyman, M.D.",
+     "hits": 5,
+     "days": 3,
+     "views": 218911,
+     "best": 87864,
+     "best_url": "https://x.com/drmarkhyman/status/2106761423078732158"
+    },
+    {
+     "handle": "@KenDBerryMD",
+     "name": "Ken D Berry MD",
+     "hits": 11,
+     "days": 6,
+     "views": 174255,
+     "best": 40623,
+     "best_url": "https://x.com/KenDBerryMD/status/2106168027708551191"
+    },
+    {
+     "handle": "@BioLayne",
+     "name": "Layne Norton, PhD",
+     "hits": 6,
+     "days": 3,
+     "views": 164333,
+     "best": 87900,
+     "best_url": "https://x.com/BioLayne/status/2105437440987013371"
+    },
+    {
+     "handle": "@BenBikmanPhD",
+     "name": "Benjamin Bikman",
+     "hits": 8,
+     "days": 6,
+     "views": 157820,
+     "best": 50200,
+     "best_url": "https://x.com/BenBikmanPhD/status/2105726655339843742"
+    },
+    {
+     "handle": "@DrAndyGalpin",
+     "name": "Andy Galpin, PhD",
+     "hits": 5,
+     "days": 5,
+     "views": 89412,
+     "best": 60100,
+     "best_url": "https://x.com/DrAndyGalpin/status/2105644293436383688"
+    },
+    {
+     "handle": "@drjasonfung",
+     "name": "Dr. Jason Fung",
+     "hits": 2,
+     "days": 2,
+     "views": 32800,
+     "best": 23547,
+     "best_url": "https://x.com/drjasonfung/status/2107297192906256678"
+    },
+    {
+     "handle": "@sleepdiplomat",
+     "name": "sleepdiplomat",
+     "hits": 1,
+     "days": 1,
+     "views": 14972,
+     "best": 14972,
+     "best_url": "https://x.com/sleepdiplomat/status/2107185127314821131"
+    }
+   ]
+  }
  }
 }
