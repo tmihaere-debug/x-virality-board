@@ -1,7 +1,7 @@
 {
  "board": "@steedfast X Virality Board",
  "timezone": "Australia/Sydney",
- "updated": "2026-11-02T11:42:21+11:00",
+ "updated": "2026-11-03T11:41:23+11:00",
  "about": "One row per daily run. score = X Score for that day (new originals only, vs targets). prev_score/score_change compare with the run before. Rebuilt from runs/<date>/ on every board build.",
  "targets": {
   "new_hits": 36,
@@ -808,9 +808,30 @@
    "day_target_done": false,
    "prev_date": "2026-11-01",
    "prev_score": 100,
-   "score_change": -18,
-   "drafts_shown": 33,
-   "drafts_carried": 14
+   "score_change": -18
+  },
+  {
+   "date": "2026-11-03",
+   "hits": 106,
+   "starred": 69,
+   "new_hits": 60,
+   "repeat_hits": 46,
+   "total_views": 3012350,
+   "new_views": 929844,
+   "top_views": 488317,
+   "top_post": {
+    "handle": "@foundmyfitness",
+    "views": 488317,
+    "url": "https://x.com/foundmyfitness/status/2116942146762912205"
+   },
+   "drafts": 18,
+   "score": 73,
+   "day_target_done": false,
+   "prev_date": "2026-11-02",
+   "prev_score": 82,
+   "score_change": -9,
+   "drafts_shown": 35,
+   "drafts_carried": 17
   }
  ]
 }
