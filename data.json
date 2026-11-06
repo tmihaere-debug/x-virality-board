@@ -2,7 +2,7 @@
  "title": "@steedfast X Virality Board — 2026-11-06",
  "date": "2026-11-06",
  "timezone": "Australia/Sydney",
- "updated": "2026-11-06T11:44:15+11:00",
+ "updated": "2026-11-06T11:44:29+11:00",
  "brand_title": "@steedfast X Virality Board",
  "brand_handle": "@steedfast",
  "hits": [
@@ -400,10 +400,10 @@
    "highlight": true,
    "repeat": false,
    "first_seen": "2026-11-06",
-   "draft_en": "Paul Saladino teased the best source of zinc in a short video.\n\nZinc matters for immunity, wound healing and hormones — and the richest everyday sources are animal foods, especially oysters and red meat.\n\nOver 50 on the tools, if you're always getting crook or healing slow, check you're actually eating zinc-rich food, not just a multivitamin.",
-   "video_tip": "8s: oysters or a steak on a plate; captions “Best zinc source” “Animal food first.”",
-   "draft_from": "2026-11-06",
-   "draft_skip_reason": ""
+   "draft_en": "",
+   "video_tip": "",
+   "draft_from": "",
+   "draft_skip_reason": "no usable text: one-line tease over a video (\"The BEST source of zinc....... is......\"); the answer is only in the clip."
   },
   {
    "display_name": "Ken D Berry MD",
@@ -2763,8 +2763,8 @@
  ],
  "narrative_synthesis": "",
  "virals_narrative": "",
- "drafts_count": 32,
- "drafts_new": 18,
+ "drafts_count": 31,
+ "drafts_new": 17,
  "drafts_carried": 14,
  "score": {
   "x_score": 84,
