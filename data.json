@@ -2,7 +2,7 @@
  "title": "@steedfast X Virality Board — 2026-11-11",
  "date": "2026-11-11",
  "timezone": "Australia/Sydney",
- "updated": "2026-11-11T11:44:19+11:00",
+ "updated": "2026-11-11T11:45:37+11:00",
  "brand_title": "@steedfast X Virality Board",
  "brand_handle": "@steedfast",
  "hits": [
@@ -514,7 +514,7 @@
    "highlight": true,
    "repeat": false,
    "first_seen": "2026-11-11",
-   "draft_en": "Dr Shawn Baker shared a chart of glyphosate levels in common foods.\n\nThe pattern in these surveys is usually the same: eggs, milk and meat sit near the bottom, while grain products like cereal and pasta sit higher up.\n\nIf you eat a lot of packaged grain stuff because it's sold as \"healthy\", it's worth a look. Simple food, less of it out of a box.",
+   "draft_en": "Dr Shawn Baker shared a chart of glyphosate levels in common foods.\n\nKen Berry posted a 2018 Swiss survey the same day: eggs and milk typically had none, meat under 1 part per billion, durum pasta 139 typical.\n\nIf you eat a lot of packaged grain stuff because it's sold as \"healthy\", it's worth a look. Simple food, less of it out of a box.",
    "video_tip": "8s: hand flipping a cereal box to read the label, then cracking eggs into a pan; captions \"What's in it?\" \"Keep it simple.\"",
    "draft_from": "2026-11-11",
    "draft_skip_reason": ""
@@ -818,8 +818,8 @@
    "highlight": true,
    "repeat": false,
    "first_seen": "2026-11-11",
-   "draft_en": "Eric Topol highlights work from 50 institutions on a possible early test for ovarian cancer, picking it up even before it turns malignant, using a marker carried in tiny vesicles in the blood. He notes it's a cancer the Galleri test misses.\n\nIt's early research, but early detection is where lives get saved.\n\nFellas, pass this one on to the women in your life, and keep up with your own checks too.",
-   "video_tip": "8s: blood sample tube, then \"Early = better\" on screen; captions \"New test in research\" \"Early detection\" \"Book your checks.\"",
+   "draft_en": "Eric Topol highlights work from 50 institutions on a possible early test for ovarian cancer, picking it up even before it turns malignant, using a marker carried in tiny extracellular vesicles. He notes it's a cancer the Galleri test misses.\n\nIt's early research, but early detection is where lives get saved.\n\nFellas, pass this one on to the women in your life, and keep up with your own checks too.",
+   "video_tip": "8s: lab test tube, then \"Early = better\" on screen; captions \"New test in research\" \"Early detection\" \"Book your checks.\"",
    "draft_from": "2026-11-11",
    "draft_skip_reason": ""
   },
