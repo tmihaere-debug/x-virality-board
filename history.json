@@ -1,7 +1,7 @@
 {
  "board": "@steedfast X Virality Board",
  "timezone": "Australia/Sydney",
- "updated": "2026-11-19T11:45:14+11:00",
+ "updated": "2026-11-20T11:41:02+11:00",
  "about": "One row per daily run. score = X Score for that day (new originals only, vs targets). prev_score/score_change compare with the run before. Rebuilt from runs/<date>/ on every board build.",
  "targets": {
   "new_hits": 36,
@@ -1123,9 +1123,30 @@
    "day_target_done": false,
    "prev_date": "2026-11-18",
    "prev_score": 81,
-   "score_change": -10,
-   "drafts_shown": 26,
-   "drafts_carried": 10
+   "score_change": -10
+  },
+  {
+   "date": "2026-11-20",
+   "hits": 113,
+   "starred": 73,
+   "new_hits": 66,
+   "repeat_hits": 47,
+   "total_views": 3028230,
+   "new_views": 1167637,
+   "top_views": 488776,
+   "top_post": {
+    "handle": "@bryan_johnson",
+    "views": 488776,
+    "url": "https://x.com/bryan_johnson/status/2123212660195889399"
+   },
+   "drafts": 21,
+   "score": 79,
+   "day_target_done": false,
+   "prev_date": "2026-11-19",
+   "prev_score": 71,
+   "score_change": 8,
+   "drafts_shown": 36,
+   "drafts_carried": 15
   }
  ]
 }
