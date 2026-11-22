@@ -5073,89 +5073,181 @@
           "handle": "@bryan_johnson",
           "name": "Bryan Johnson",
           "hits": 5,
-          "best": 750731,
-          "total": 1390391,
+          "best": 896028,
+          "total": 1949631,
           "best_url": "https://x.com/bryan_johnson/status/2123592915721060830"
         },
         "hubermanlab": {
           "handle": "@hubermanlab",
           "name": "Andrew D. Huberman, Ph.D.",
           "hits": 3,
-          "best": 171727,
-          "total": 238360,
-          "best_url": "https://x.com/hubermanlab/status/2123681186887368952"
+          "best": 404423,
+          "total": 670157,
+          "best_url": "https://x.com/hubermanlab/status/2123921619538284716"
         },
         "kendberrymd": {
           "handle": "@KenDBerryMD",
           "name": "Ken D Berry MD",
           "hits": 19,
-          "best": 47880,
-          "total": 218944,
+          "best": 63961,
+          "total": 254345,
           "best_url": "https://x.com/KenDBerryMD/status/2123624378478870545"
         },
         "foundmyfitness": {
           "handle": "@foundmyfitness",
           "name": "Dr. Rhonda Patrick",
           "hits": 1,
-          "best": 29809,
-          "total": 29809,
+          "best": 59983,
+          "total": 59983,
           "best_url": "https://x.com/foundmyfitness/status/2123828694770688104"
         },
         "sbakermd": {
           "handle": "@SBakerMD",
           "name": "Dr Shawn Baker 🥩",
           "hits": 13,
-          "best": 25819,
-          "total": 127439,
+          "best": 38117,
+          "total": 165359,
           "best_url": "https://x.com/SBakerMD/status/2123785534166401524"
         },
         "erictopol": {
           "handle": "@EricTopol",
           "name": "Eric Topol",
           "hits": 5,
-          "best": 19818,
-          "total": 74351,
-          "best_url": "https://x.com/EricTopol/status/2123842782569848889"
+          "best": 29389,
+          "total": 136651,
+          "best_url": "https://x.com/EricTopol/status/2123827254614802795"
         },
         "peterdiamandis": {
           "handle": "@PeterDiamandis",
           "name": "Peter H. Diamandis, MD",
           "hits": 4,
-          "best": 16987,
-          "total": 53740,
-          "best_url": "https://x.com/PeterDiamandis/status/2123562272337625301"
+          "best": 19641,
+          "total": 66439,
+          "best_url": "https://x.com/PeterDiamandis/status/2123778323151233456"
         },
         "benbikmanphd": {
           "handle": "@BenBikmanPhD",
           "name": "Benjamin Bikman",
           "hits": 2,
-          "best": 16557,
-          "total": 24863,
+          "best": 29271,
+          "total": 38342,
           "best_url": "https://x.com/BenBikmanPhD/status/2123815535737708799"
         },
         "davidasinclair": {
           "handle": "@davidasinclair",
           "name": "David Sinclair",
           "hits": 1,
-          "best": 12052,
-          "total": 12052,
+          "best": 30469,
+          "total": 30469,
           "best_url": "https://x.com/davidasinclair/status/2123898603873943973"
         },
         "biolayne": {
           "handle": "@BioLayne",
           "name": "Layne Norton, PhD",
           "hits": 1,
-          "best": 8982,
-          "total": 8982,
+          "best": 10479,
+          "total": 10479,
           "best_url": "https://x.com/BioLayne/status/2123622584554275220"
         },
         "nicknorwitz": {
           "handle": "@nicknorwitz",
           "name": "Nick Norwitz MD PhD",
           "hits": 1,
-          "best": 7712,
-          "total": 7712,
+          "best": 14212,
+          "total": 14212,
           "best_url": "https://x.com/nicknorwitz/status/2123788915333062701"
+        }
+      }
+    },
+    "2026-11-22": {
+      "accounts": {
+        "bryan_johnson": {
+          "handle": "@bryan_johnson",
+          "name": "Bryan Johnson",
+          "hits": 3,
+          "best": 188253,
+          "total": 356888,
+          "best_url": "https://x.com/bryan_johnson/status/2124213441334591526"
+        },
+        "sbakermd": {
+          "handle": "@SBakerMD",
+          "name": "Dr Shawn Baker 🥩",
+          "hits": 23,
+          "best": 61099,
+          "total": 292029,
+          "best_url": "https://x.com/SBakerMD/status/2124265510028329113"
+        },
+        "paulsaladinomd": {
+          "handle": "@paulsaladinomd",
+          "name": "Paul Saladino, MD",
+          "hits": 1,
+          "best": 37882,
+          "total": 37882,
+          "best_url": "https://x.com/paulsaladinomd/status/2124181705238171717"
+        },
+        "davidasinclair": {
+          "handle": "@davidasinclair",
+          "name": "David Sinclair",
+          "hits": 1,
+          "best": 26109,
+          "total": 26109,
+          "best_url": "https://x.com/davidasinclair/status/2124228558738612407"
+        },
+        "erictopol": {
+          "handle": "@EricTopol",
+          "name": "Eric Topol",
+          "hits": 4,
+          "best": 24861,
+          "total": 74247,
+          "best_url": "https://x.com/EricTopol/status/2124183393286136256"
+        },
+        "peterdiamandis": {
+          "handle": "@PeterDiamandis",
+          "name": "Peter H. Diamandis, MD",
+          "hits": 6,
+          "best": 24680,
+          "total": 96240,
+          "best_url": "https://x.com/PeterDiamandis/status/2124118297159291342"
+        },
+        "nicknorwitz": {
+          "handle": "@nicknorwitz",
+          "name": "Nick Norwitz MD PhD",
+          "hits": 1,
+          "best": 20616,
+          "total": 20616,
+          "best_url": "https://x.com/nicknorwitz/status/2124118945082806430"
+        },
+        "drmarkhyman": {
+          "handle": "@drmarkhyman",
+          "name": "Mark Hyman, M.D.",
+          "hits": 1,
+          "best": 13538,
+          "total": 13538,
+          "best_url": "https://x.com/drmarkhyman/status/2124095511363817729"
+        },
+        "benbikmanphd": {
+          "handle": "@BenBikmanPhD",
+          "name": "Benjamin Bikman",
+          "hits": 2,
+          "best": 11245,
+          "total": 16587,
+          "best_url": "https://x.com/BenBikmanPhD/status/2124188337149743173"
+        },
+        "kendberrymd": {
+          "handle": "@KenDBerryMD",
+          "name": "Ken D Berry MD",
+          "hits": 8,
+          "best": 10544,
+          "total": 65694,
+          "best_url": "https://x.com/KenDBerryMD/status/2123853886620356927"
+        },
+        "aubreydegrey": {
+          "handle": "@aubreydegrey",
+          "name": "Aubrey de Grey",
+          "hits": 1,
+          "best": 7904,
+          "total": 7904,
+          "best_url": "https://x.com/aubreydegrey/status/2123914464521310569"
         }
       }
     }
